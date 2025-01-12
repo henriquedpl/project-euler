@@ -34,3 +34,6 @@ Problem ID    Runtime (seconds)
 ```
 
 I hope you can learn anything from my solutions. Happy coding!
+
+![](https://projecteuler.net/profile/henriqdp.png)
+
