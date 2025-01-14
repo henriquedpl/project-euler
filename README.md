@@ -17,7 +17,7 @@ I have a bachelor degree in computer science and, back when I was a student, I s
  runs `black` on modified files to linter them.
 
  ## Analyzing problem performance
- There's an option to run all problems at once and list the 10 slowest ones. It is `python run.py -t`. Don't know how useful this can be, but I use it a lot to make solutions faster and therefore saving time whenever unittest runs. It will output something like this:
+ There's an option to run all problems at once and list the 10 slowest ones. It is `python run.py -t`. Don't know if this can be useful to anyone at all, but I use it to track slow solutions to eventually make them faster, saving time whenever unittest runs. It will output something like this:
 ```
 Problem ID    Runtime (seconds)
 ------------  -------------------
