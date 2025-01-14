@@ -33,7 +33,7 @@ Problem ID    Runtime (seconds)
        050               0.6244
 ```
 
-I hope you can learn anything from my solutions. Happy coding!
+I hope you can learn something from my solutions. Happy coding!
 
 ![](https://projecteuler.net/profile/henriqdp.png)
 
