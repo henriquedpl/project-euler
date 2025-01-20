@@ -1,6 +1,8 @@
 import math
+import numba
 
 
+@numba.jit(nopython=True)
 def is_prime(n):
     if n % 2 == 0:
         return False
