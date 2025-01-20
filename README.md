@@ -2,7 +2,7 @@
 
 [Project Euler](https://projecteuler.net) is an online platform that contains around one thousand problems intended to be solved with coding. The problems present an interesting intersection between mathematics and algorithms, providing challenges that span various domains in both fields. The platform also offers a collaborative forum where enthusiasts from all around the world share their thoughts and solutions (the discussion for a particular problem becomes available once the problem is solved).
 
-I have a bachelor degree in computer science and, back when I was a student, I started solving these problems but they quickly progress into something that requires more mathematical knowledge than I had back then. Now that I am pursuing a degree in math, I re-discovered this challenge and once more started to work on the problems. I'll try to solve them all, but I am not sure how far I'll get. Project Euler's about page states that, in order to be in the top 1%, one must solve more than 115 problems and that's my goal for the moment.
+I have a bachelor degree in computer science and, back when I was a student, I started solving these problems but they quickly progress into something that requires more mathematical knowledge than I had back then. Now that I am pursuing a degree in math, I re-discovered this challenge and once again started to work on the problems. I'll try to solve them all, but I am not sure how far I'll get. However, Project Euler's about page states that, in order to be in the top 1%, one must solve more than 115 problems and that's my goal for the moment.
 
 # How to run it:
 
@@ -17,7 +17,7 @@ I have a bachelor degree in computer science and, back when I was a student, I s
  runs `black` on modified files to linter them.
 
  ## Analyzing problem performance
- There's an option to run all problems at once and list the 10 slowest ones. It is `python run.py -t`. I don't think people will actually use this at all, but I use it a lot to make solutions faster and therefore saving time whenever unittest runs. It will output something like this:
+ There's an option to run all problems at once and list the 10 slowest ones. It is `python run.py -t`. Don't know if this can be useful to anyone at all, but I use it to track slow solutions to eventually make them faster, saving time whenever unittest runs. It will output something like this:
 ```
 Problem ID    Runtime (seconds)
 ------------  -------------------
@@ -33,4 +33,7 @@ Problem ID    Runtime (seconds)
        050               0.6244
 ```
 
-I hope you can learn anything from my solutions. Happy coding!
+I hope you can learn something from my solutions. Happy coding!
+
+![](https://projecteuler.net/profile/henriqdp.png)
+
