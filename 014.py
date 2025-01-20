@@ -2,7 +2,6 @@ COLLATZ_CACHE = {1: 1}
 
 
 def collatz_length(n):
-    m = n
     if n in COLLATZ_CACHE:
         return COLLATZ_CACHE[n]
     length = 1

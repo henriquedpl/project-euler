@@ -35,7 +35,6 @@ def solution012():
     found = False
     i = 2
     while not found:
-
         _sum = (i * (i + 1)) / 2
         primes = expand_primes(primes, math.isqrt(int(_sum)) + 1, p)
         if _sum % 2 == 0 and number_of_divisors(_sum, primes, p) > 500:

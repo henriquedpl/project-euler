@@ -9,7 +9,6 @@ def get_rotations(n):
 
 
 def solution035():
-
     all_primes = sieve(1000000)
     primes = set()
 

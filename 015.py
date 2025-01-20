@@ -1,6 +1,7 @@
 import functools
 import operator
 
+
 # simple permutation with repetition
 # to go from corner to corner it requires 20 moves right and 20 moves
 # down, with can be permutated with 20 repetitions for each

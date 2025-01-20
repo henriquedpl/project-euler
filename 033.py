@@ -1,4 +1,4 @@
-from prime import prime_division, gcd
+from prime import gcd
 
 
 def solution033():

@@ -5,7 +5,6 @@ import operator
 
 class PrimeIterator:
     def __init__(self):
-
         self.primes = []
         self.n = 2
 

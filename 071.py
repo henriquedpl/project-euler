@@ -1,5 +1,6 @@
 from prime import prime_division
 
+
 # We simply deduct 1/1000000, 1/999999, 1/999998 from the base fraction (3/7)
 # until we find a fraction whose reduced form a/b has a,b < 1000000
 def solution071():

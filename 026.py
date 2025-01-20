@@ -4,16 +4,13 @@ def get_cycle_length(d):
     while str(1 / d)[zi] == 0:
         zeros += 1
     numerator = 10**zi
-    last_numerator = -1
     digits = ""
-    finished = False
     while True:
         current_digit = numerator // d
         if current_digit == 0 and numerator % d == 0:
             return 0  # no infinite cycle
 
         digits = f"{digits}{current_digit}"
-        last_numerator = numerator
         numerator = 10 * (numerator % d)
 
         if len(digits) > 10 and digits[-10:] in digits[:-10]:
