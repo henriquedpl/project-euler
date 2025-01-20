@@ -24,6 +24,5 @@ def solution038():
         if is9pandigit(s):
             if int(s) > max_pandigital:
                 max_pandigital = int(s)
-                max_i = i
 
     return int(max_pandigital)
