@@ -1,5 +1,6 @@
 from itertools import product
 
+
 def get_forbidden_numbers(s, i, j):
     """
     Get all invalid possibilities for a given cell of the board.
@@ -101,14 +102,16 @@ def solve(s):
             squares.append({"pos": (i, j), "used": []})
     return s
 
-with open('input/096.txt') as f:
+
+with open("input/096.txt") as f:
     text = f.read()
+
 
 def solution096():
     _sum = 0
-    for grid in text.split('Grid ')[1:]:
+    for grid in text.split("Grid ")[1:]:
         grid = grid[3:]
-        lines = grid.split('\n')[:-1]
+        lines = grid.split("\n")[:-1]
         board = [[int(c) for c in list(x)] for x in lines]
         solved = solve(board)
 
