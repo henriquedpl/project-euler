@@ -292,6 +292,10 @@ class SolutionTest(unittest.TestCase):
         problem_id = "092"
         self.assertEqual(self.answers[problem_id], self.get_answer(problem_id))
 
+    def testProblem096(self):
+        problem_id = "096"
+        self.assertEqual(self.answers[problem_id], self.get_answer(problem_id))
+
     def testProblem097(self):
         problem_id = "097"
         self.assertEqual(self.answers[problem_id], self.get_answer(problem_id))
