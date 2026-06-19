@@ -1,2 +1,10 @@
 def solution001():
-    return sum([x for x in range(1, 1000) if x % 3 == 0 or x % 5 == 0])
+    div_3 = int(999 / 3)
+    div_5 = int(999 / 5)
+    div_15 = int(999 / 15)
+
+    return (
+        3 * (div_3) * (div_3 + 1)
+        + 5 * (div_5) * (div_5 + 1)
+        - 15 * (div_15) * (div_15 + 1)
+    ) / 2
