@@ -39,6 +39,3 @@ def solution104():
                 return i
         n_1 = n_2
         n_2 = n_next_suffix
-
-
-print(solution104())

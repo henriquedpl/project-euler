@@ -38,18 +38,14 @@ def solution116():
     result = 1
     for red_tiles in range(1, int(50 / 2)):
         grey_tiles = 50 - red_tiles * 2
-        print(f"Red tiles: {red_tiles} Grey tiles: {50 - 2*red_tiles}")
         result += perm(red_tiles, grey_tiles)
 
     for green_tiles in range(1, int(50 / 3) + 1):
         grey_tiles = 50 - green_tiles * 3
-        print(f"Green tiles: {green_tiles} Grey tiles: {50 - 3*green_tiles}")
         result += perm(green_tiles, grey_tiles)
 
     for blue_tiles in range(1, int(50 / 4) + 1):
         grey_tiles = 50 - blue_tiles * 4
-        print(f"Blue tiles: {blue_tiles} Grey tiles: {50 - 4*blue_tiles}")
-
         result += perm(blue_tiles, grey_tiles)
 
     return result
